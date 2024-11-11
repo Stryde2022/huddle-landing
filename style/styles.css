@@ -1,0 +1,294 @@
+body {
+    margin: 0;
+}
+
+.container {
+    background-color: #ebfbff;
+    padding: 100px;
+    margin: 0;
+}
+
+.bg-deskstop {
+    background-image: url(/images/bg-hero-desktop.svg);
+    height: 800px;
+    width: 100%;
+    margin-bottom: 150px;
+    position: relative;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    width: 460px;
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+.grey-text {
+    color:  #808d99;
+    line-height: 1.7;
+}
+
+h1{
+    font-family: 'Poppins', sans-serif;
+    width: 400px;
+    margin-top: 0px;
+}
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+    width: 450px;
+    margin-top: 0px;
+    font-size: 25px;
+}
+
+.logo {
+    
+}
+
+.try-it {
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #ebfbff;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.122);
+    padding: 15px 55px;
+    border-radius: 30px;
+    font-size: 15px;
+    font-weight: 600;
+    position: absolute;
+    right: 0px;
+}
+
+.try-it:hover {
+    color: #808d99;
+}
+
+.first-container {
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+
+.td-1 {
+    width: 1800px;
+}
+
+.td-2 {
+    width: 700px;
+}
+
+.td-3 {
+    width: 700px;
+}
+
+.td-4 {
+    width: 700px;
+}
+
+.btn-1 {
+    background-color:  #ff52bf;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 50px;
+    width: 250px;
+    color:  hsl(193, 100%, 96%);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.05);
+}
+
+.btn-1:hover {
+    background-color: #ff52c098;
+}
+
+.btn-2 {
+    background-color:  #ff52bf;
+    padding: 15px 23px;
+    border: none;
+    border-radius: 50px;
+    width: 350px;
+    color:  hsl(193, 100%, 96%);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.05);
+}
+
+.btn-2:hover {
+    background-color:  #ff52c098;
+}
+
+.img-1 {
+    width: 750px;
+    margin-left: 100px;
+}
+
+.img-2 {
+    width: 400px;
+    margin-left: 300px;
+}
+
+.img-4 {
+    width: 400px;
+    margin-left: 300px;
+}
+
+.second-container {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.05);
+    border-radius: 25px;
+}
+
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.third-container {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.05);
+    border-radius: 25px;
+}
+
+.text-3 {
+    margin-left: 140px;
+}
+
+.img-3 {
+    width: 400px;
+    margin-left: 100px;
+}
+
+.fourth-container {
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.05);
+    border-radius: 25px;
+}
+
+
+.fifth-container {
+    display: block;
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 40px 70px;
+    background-color: #ebfbff;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.09);
+    border-radius: 20px;
+    position: relative;
+    top: 180px;
+    z-index: 100;
+}
+
+.bottom-container {
+    background-color: #00252e;
+    width: 100%;
+    color: #ebfbff;
+    font-family: 'Open sans', sans-serif;
+    font-size: 15px;
+    padding: 180px 100px 100px ;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.logo-white {
+    background-color: #ebfbff;
+    margin-bottom: 20px;
+}
+
+.td-icons {
+    width: 500px;
+}
+
+.icon-1, .icon-2, .icon-3 {
+    float: left;
+}
+
+.icon-text-1 {
+    width: 310px;
+    margin-left: 40px;
+}
+
+.icon-text-2 {
+    width: 200px;
+    margin-left: 40px;
+}
+
+.icon-text-3 {
+    width: 200px;
+    margin-left: 40px;
+}
+
+.table-1 {
+    font-family: 'Open Sans', sans-serif;
+    position: absolute;
+    top: 2630px;
+    left: 700px;
+    color: #ebfbff;
+}
+
+.table-td {
+    width: 150px;
+    padding-bottom: 15px;
+}
+
+.fa {
+    border-radius: ;
+    border: solid 1px;
+    margin: 5px;
+    height: 35px;
+    width: 45px;
+    border-radius: 50%;
+    padding-top: 10px;
+}
+
+.fa-facebook {
+   text-align: center;
+    font-size: 25px;
+
+}
+
+.fa-twitter {
+    text-align: center;
+    font-size: 25px;
+
+}
+
+.fa-instagram {
+    text-align: center;
+    font-size: 25px;
+
+}
+
+a {
+    color: #ebfbff;
+}
+
+a:hover {
+    color: #ff52bf;
+}
+
+
+.icon-all {
+    position: absolute;
+    top: 2610px;
+    right: 180px;
+}
+
+.last-text {
+    font-size: 13px;
+    text-align: end;
+    width: 100%;
+    position: absolute;
+    top: 2750px;
+    right: 105px;
+    color: #ebfbff;
+}
