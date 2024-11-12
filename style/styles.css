@@ -4,8 +4,9 @@ body {
 
 .container {
     background-color: #ebfbff;
-    padding: 100px;
+    padding:  0 100px;
     margin: 0;
+    align-items: center;
 }
 
 .bg-deskstop {
@@ -14,12 +15,13 @@ body {
     width: 100%;
     margin-bottom: 150px;
     position: relative;
+    padding-top: 40px;
 }
 
 p {
     font-family: 'Open Sans', sans-serif;
-    width: 460px;
-    font-size: 16px;
+    width: 100%;
+    font-size: 1rem;
     line-height: 1.7;
 }
 
@@ -30,32 +32,32 @@ p {
 
 h1{
     font-family: 'Poppins', sans-serif;
-    width: 400px;
+    width: 100%;
     margin-top: 0px;
 }
 
 h2 {
     font-family: 'Poppins', sans-serif;
-    width: 450px;
+    width: 100%;
     margin-top: 0px;
     font-size: 25px;
 }
 
-.logo {
-    
+.top-flex {
+    display: flex;
+    justify-content: space-between;
+
 }
 
 .try-it {
-    display: inline-block;
     font-family: 'Open Sans', sans-serif;
     background-color: #ebfbff;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.122);
-    padding: 15px 55px;
+    padding: 12px 55px;
     border-radius: 30px;
-    font-size: 15px;
+    font-size: 0.9375rem;
     font-weight: 600;
-    position: absolute;
-    right: 0px;
+    
 }
 
 .try-it:hover {
@@ -65,10 +67,14 @@ h2 {
 .first-container {
     margin-top: 150px;
     margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 1300px;
 }
 
 .td-1 {
-    width: 1800px;
+    width: 0px;
 }
 
 .td-2 {
@@ -108,7 +114,7 @@ h2 {
     color:  hsl(193, 100%, 96%);
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
-    font-size: 16px;
+    font-size: 1rem;
     box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.05);
 }
 
@@ -117,13 +123,13 @@ h2 {
 }
 
 .img-1 {
-    width: 750px;
+    width: 700px;
     margin-left: 100px;
 }
 
 .img-2 {
     width: 400px;
-    margin-left: 300px;
+    margin-left: 250px;
 }
 
 .img-4 {
@@ -138,6 +144,8 @@ h2 {
     margin-right: auto;
     box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.05);
     border-radius: 25px;
+    padding: 10px;
+    width: 1300px;
 }
 
 
@@ -153,8 +161,13 @@ table {
     margin-right: auto;
     box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.05);
     border-radius: 25px;
+    padding: 10px;
+    width: 1300px;
 }
 
+.text-1 {
+    width: 100%;
+}
 .text-3 {
     margin-left: 140px;
 }
@@ -170,6 +183,8 @@ table {
     margin-right: auto;
     box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.05);
     border-radius: 25px;
+    padding: 10px;
+    width: 1300px;
 }
 
 
@@ -184,7 +199,7 @@ table {
     box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.09);
     border-radius: 20px;
     position: relative;
-    top: 180px;
+    top: 130px;
     z-index: 100;
 }
 
@@ -193,10 +208,10 @@ table {
     width: 100%;
     color: #ebfbff;
     font-family: 'Open sans', sans-serif;
-    font-size: 15px;
+    font-size: 0.9375rem;
     padding: 180px 100px 100px ;
     box-sizing: border-box;
-    position: relative;
+    position: sticky;
 }
 
 .logo-white {
@@ -205,25 +220,27 @@ table {
 }
 
 .td-icons {
-    width: 500px;
+    width: 350px;
+    align-items: center;
 }
 
 .icon-1, .icon-2, .icon-3 {
     float: left;
+    margin-top: 8px;
 }
 
 .icon-text-1 {
-    width: 310px;
+    width: 100%;
     margin-left: 40px;
 }
 
 .icon-text-2 {
-    width: 200px;
+    width: 100%;
     margin-left: 40px;
 }
 
 .icon-text-3 {
-    width: 200px;
+    width: 100%;
     margin-left: 40px;
 }
 
@@ -233,6 +250,7 @@ table {
     top: 2630px;
     left: 700px;
     color: #ebfbff;
+    width: 230px;
 }
 
 .table-td {
@@ -252,19 +270,19 @@ table {
 
 .fa-facebook {
    text-align: center;
-    font-size: 25px;
+    font-size: 1.5625rem;
 
 }
 
 .fa-twitter {
     text-align: center;
-    font-size: 25px;
+    font-size: 1.5625rem;
 
 }
 
 .fa-instagram {
     text-align: center;
-    font-size: 25px;
+    font-size: 1.5625rem;
 
 }
 
@@ -281,10 +299,13 @@ a:hover {
     position: absolute;
     top: 2610px;
     right: 180px;
+    width: 200px;
+    display: flex;
+    justify-content: end;
 }
 
 .last-text {
-    font-size: 13px;
+    font-size: 0.8125rem;
     text-align: end;
     width: 100%;
     position: absolute;
